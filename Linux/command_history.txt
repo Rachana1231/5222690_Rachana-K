@@ -1,0 +1,378 @@
+0 vflogin Manishaangadi04
+   1 date 
+   2 bc 
+   3 sudo apt update 
+   4 sudo apt upgrade 
+   5 clear 
+   6 echo $SHELL 
+   7 printenv SHELL 
+   8 whoami 
+   9 whatis echo 
+  10 whatis printenv 
+  11 whatis whoami 
+  12 whatis cat 
+  13 whereis cat 
+  14 whereis gcc 
+  15 info cat 
+  16 sudo apt install gcc 
+  17 clear 
+  18  sudo apt install build-essential 
+  19 date 
+  20 date "+%D" 
+  21 date "+%D %T" 
+  22 date "+%Y-%m-%d" 
+  23 date "+%Y/%m/%d" 
+  24 date "+%A %B %d %Y %T" 
+  25 date --date "tomorrow" 
+  26 date --date "2 years ago" 
+  27 man date 
+  28 clear 
+  29 cal 
+  30 sudo apt install ncal 
+  31 cal 
+  32 cal 7 2025 
+  33 cal 5 2025 
+  34 cal 2025 
+  35 cal -3 2025 
+  36 cal -3 
+  37 clear 
+  38 ps 
+  39 exit
+  40 history 
+  41 bc
+  42  bc <<< "12/5"
+  43 bc <<< "scale=2; 12/5"
+  44 uname
+  45 uname -o
+  46 uname -i
+  47 uname -n
+  48 uname -v
+  49 uname -s
+  50 uname -m
+  51 uname -r
+  52 uname -a
+  53  echo "Welcome to Linux"
+  54 echo -e "Hello \t World"
+  55 echo -n "Hello World"
+  56 echo "Welcome to \"Linux\""
+  57 echp 'date'
+  58 echo "This is
+  59 Linux
+  60 Training
+  61 for
+  62 Notchup
+  63 July 2025"
+  64 echo "This is Linux Training for Notchup July 2025"
+  65 printf "Linux training"
+  66 printf "Linux training\n"
+  67  printf "My shell is %s\n" $SHELL
+  68 seq 1 10
+  69 seq 1 3 10
+  70 seq 10 -1 1
+  71 seq 20 -20
+  72 seq -s "" 10
+  73 seq -s 5 10
+  74 seq -s " " 5 3 50
+  75 rev <<< Linux
+  76 history
+  77 seq 1 10
+  78 echo $?
+  79 false
+  80 ls
+  81 mkdir new
+  82 cd new
+  83 mkdir new1 mew2
+  84 ls
+  85 cd
+  86 cd -
+  87 mkdir -p d1/d2
+  88 ls
+  89 cd d1
+  90 ls
+  91 ls -l
+  92 cd ..
+  93 cd
+  94 ls -l
+  95 ls -a
+  96 ls -R
+  97 nano demo
+  98 wc demo
+  99 touch newfile.txt
+ 100 nano newfile.txt
+ 101 cat newfile.txt
+ 102 cat newfile.txt > output.txt
+ 103 cat output.txt
+ 104 cat -n demo
+ 105 ls
+ 106 mkdir training
+ 107 cp newfile output.txt training
+ 108 cd training
+ 109 ls
+ 110 cd
+ 111 ls
+ 112 ls -R
+ 113  cp -r new training
+ 114 ls
+ 115 cd training
+ 116 ls
+ 117 cd new
+ 118 ls
+ 119 cd
+ 120 mv output.txt out
+ 121 ls
+ 122 mv output.txt out
+ 123 ls
+ 124 mv out trainig
+ 125 ls
+ 126 cd training
+ 127 ls
+ 128 vi sum.c
+ 129 gcc sum.c && ./a.out
+ 130 gcc ifelse.c
+ 131 cd notchupfy26
+ 132 cd notchupJul25
+ 133 gcc 1darray.c
+ 134 cd ..
+ 135 gcc 1darray.c
+ 136 ./a.out
+ 137 exit
+ 138  echo $SHELL
+ 139 whoami
+ 140 history
+ 141 whatis cat
+ 142 whatis gcc
+ 143 whereis cat
+ 144 info cat
+ 145 date; uname -r; whoami
+ 146 date; unam -r; whoami
+ 147  date && whoami
+ 148 date
+ 149 date "+%D"
+ 150 date "+%D %T"
+ 151 date "%Y - %m - %d"
+ 152 date "+%Y - %m - %d"
+ 153 date "+%Y/%m/%d"
+ 154 date "+%d/%m/%Y"
+ 155 date "+%A %B %d %y %T"
+ 156 date "+%A %B %d %Y %T"
+ 157 info date
+ 158 date --date "tomorrow"
+ 159 date --date "2 years ago"
+ 160 cal
+ 161 cal 10 2025
+ 162 cal 2025
+ 163 cal -3
+ 164 cal -5
+ 165 history
+ 166 history 10
+ 167 echo $?
+ 168 unam -r
+ 169 date
+ 170 man cat
+ 171 nano test
+ 172 ls
+ 173 cd training
+ 174 ls
+ 175 cd new
+ 176 cd
+ 177 cd -
+ 178 cd
+ 179 pwd
+ 180 cd -
+ 181 pwd
+ 182 cd
+ 183 mkdir stepin
+ 184 cd stepin
+ 185 mkdir sdlc git linux
+ 186 ls
+ 187 cd sdlc
+ 188 mkdir -p models/adile
+ 189 ls
+ 190 cd models
+ 191 ls
+ 192 cd
+ 193 ls
+ 194 ls -l
+ 195 ls -a
+ 196 ls -R
+ 197 cd agile
+ 198 cd adile
+ 199 cd sdlc
+ 200 cd models
+ 201 cd agile
+ 202 nano cicid
+ 203 wc cicd
+ 204  wc this is day 2 of the training
+ 205 wc
+ 206  touch newfile.txt
+ 207 ls
+ 208 nano newfile.txt
+ 209 cat newfile.txt
+ 210 cat cicd
+ 211 cat new.txt
+ 212 cat -n cicd
+ 213 tac cicd
+ 214 cd ..
+ 215 ls
+ 216 cd ..
+ 217 cd
+ 218 ls
+ 219 cp demo newfile stepin
+ 220 ls
+ 221 cd stepin
+ 222 ls
+ 223 cp -r training stepin
+ 224 cd
+ 225 cd stepin
+ 226 ls
+ 227 cd
+ 228 ls
+ 229 cd stepin
+ 230 ls
+ 231 mv newfile Day2
+ 232 ls
+ 233 rm Day2
+ 234 ls
+ 235 cd
+ 236 ls
+ 237 rm n*
+ 238 ls
+ 239 rmdir new
+ 240 cd new
+ 241 ls
+ 242 cd
+ 243 rm -r new
+ 244 ls
+ 245 history
+ 245 vi sum.c
+ 246 gcc sum.c && ./a.out
+ 247 vi filecmd
+ 248 cat filecmd
+ 249 cat sum.c
+ 250 gcc sum.c
+ 251 ./a.out
+ 252 gcc sum.c && ./a.out
+ 253 ls
+ 254 mare filecmd
+ 255 nano filecmd
+ 256 ls
+ 257 mare filecmd
+ 258 less filecmd
+ 259 head filecmd
+ 260 head -n 5 filecmd
+ 261 tail filecmd
+ 262 tail +5 filecmd
+ 263 nano sample.txt
+ 264 cat sample.txt
+ 265 cut -c 1-3 sample.txt
+ 266 cut -c 4-10 sample.txt
+ 267 cat sample.txt
+ 268 cut -d ':'  sample.txt
+ 269 cut -d ':' -f2,3 sample.txt
+ 270 ls
+ 271 cat demo
+ 272 nano f1
+ 273 nano f2
+ 274 cat fi
+ 275 cat f
+ 276 cat f1
+ 277 cat f2
+ 278 paste f1 f2
+ 279 paste -d ':' f1 f2
+ 280 paste -s f1 f2
+ 281 cat sample.txt
+ 282 sort sample.txt
+ 283 sort sample.txt -r
+ 284 sort -t ':' -k2 sample.txt
+ 285 sort -t ':' -k3 sample.txt
+ 286 sort -t ':' -k4 sample.txt
+ 287 sort -t ':' -k3 sample.txt -r
+ 288 cat sample.txt
+ 289 tr ':' '|' < sample.txt
+ 290  cat sample.txt
+ 291 ls
+ 292  tr ':' '|' < sample.txt > s1.txt
+ 293 ls
+ 294 cat s1.txt
+ 295 tr ':0' '|$' < sample.txt
+ 296  cat sample.txt
+ 297  tr -s '0' < sample.txt
+ 298 nano example.txt
+ 299 cat example.txt
+ 300 uniq example.txt
+ 301 nano example.txt
+ 302 cat example.txt
+ 303 uniq example.txt
+ 304 ls
+ 305  cat sample.txt
+ 306 cat s1.txt
+ 307  cmp sample.txt s1.txt
+ 308 diff sample.txt s1.txt
+ 309 ls
+ 310 nano test.c
+ 311 cat test.c
+ 312 grep main test.c
+ 313 grep ^main test.c
+ 314 grep ^int test.c
+ 315 grep \; test.c
+ 316 nano test.c
+ 317 cat test.c
+ 318 grep ^int test.c
+ 319 nano sed_test
+ 320 cat sed_test
+ 321 sed 's/Hello/Hi/' sed_test
+ 322 cat sed_test
+ 323 sed -i 's/Hello/Hi/' sed_test
+ 324 cat sed_test
+ 325 sed 's/!/$/g' sed_test
+ 326 cat sed_test
+ 327 sed '/simple/d' sed_test
+ 328 sed '/Hi/a Welcome to sed' sed_test
+ 329 sed -n '/Hi/p' sed_test
+ 330 nano employees.txt
+ 331 cat employees.txt
+ 332 awk '{print $0}' employees.txt
+ 333 awk '{print $1, $3}' employees.txt
+ 334 awk $3>50000 '{print $1, $3}' employees.txt
+ 335 awk '$3 > 50000 {print $1, $3}' employees.txt
+ 336 awk 'BEGIN {print "Name:, Salary: "} {print $1, $3}' employees.txt
+ 337 awk 'BEGIN {print "Name Salary"} {print $1, $3}' employees.txt
+ 338 awk 'BEGIN {print "Name Age Salary"} {print $1, $2, $3}' employees.txt
+ 339 awk '{total+= $3} END {print "Total Salary=", total}' employees.txt
+ 340 awk '{print $0}' employees.txt
+ 341 awk '{print NR, $1}' employees.txt
+ 342 awk '{print NR, $0}' employees.txt
+ 343 awk '/Alice/' employees.txt
+ 344 awk '$2 < 30 {print $1, $2}' employees.txt
+ 345 awk '{printf "Name: %s, Age: %d, Salary: %d\n", $1, $2, $3}' employees.txt
+ 346 awk 'END {print "Total employees= ", NR}' employees.txt
+ 347 awk '$3 > 50000 {print $1, $3}' employees.txt
+ 348 awk 'BEGIN {print "Name:, Salary: "} {print $1, $3}' employees.txt
+ 349 awk 'BEGIN {print "Name Salary"} {print $1, $3}' employees.txt
+ 350 awk 'BEGIN {print "Name Age Salary"} {print $1, $2, $3}' employees.txt
+ 351 ls
+ 352 ls -l s1.txt
+ 353 clear
+ 354 ls -l
+ 355 ls -l s1.txt
+ 356 chmod u+x s1.txt
+ 357 ls -l s1.txt
+ 358 chmod o-r s1.txt
+ 359 ls -l s1.txt
+ 360 chmod 462 s1.txt
+ 361 ls -l s1.txt
+ 362 chmod 462 s1.txt
+ 363 clear
+ 364 history
+ 365 history > mycommands.txt
+ 366 history
+ 367 history > mycommands2.txt
+
+
+
+
+
+
+
+
+
