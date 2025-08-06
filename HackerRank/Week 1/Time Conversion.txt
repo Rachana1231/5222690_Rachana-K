@@ -1,0 +1,24 @@
+Problem 3:(Time Conversion)
+
+#include<stdio.h>
+#include<string.h>
+void timeConversion(char *s){
+    int hour;
+    char ampm[3];
+    sscanf(s,"%2d:%*2d:%*2d%2s",&hour,ampm);
+    if(strcmp(ampm,"AM")==0){
+        if (hour==12)
+         hour=0;
+    }else if (strcmp(ampm,"PM")==0) {
+        if(hour!=12)
+        hour+=12;
+    }
+    printf("%02d%.6s\n",hour,s+2);
+}
+int main()
+{
+    char s[11];
+    scanf("%s",s);
+    timeConversion(s);
+    return 0;
+}
